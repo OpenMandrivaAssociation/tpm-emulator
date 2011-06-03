@@ -7,6 +7,8 @@ Group:            System/Kernel and hardware
 URL:              http://tpm-emulator.berlios.de/
 Source0:          http://download.berlios.de/tpm-emulator/tpm_emulator-%{version}.tar.gz
 BuildRoot:        %{_tmppath}/%{name}-root
+BuildRequires:  cmake
+BuildRequires:  libgmp-devel
 
 %description
 An implementation of a software-based TPM/MTM emulator as well as of an
