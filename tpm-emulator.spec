@@ -21,7 +21,7 @@ and Windows) and is compatible with the most relevant software packages
 and interfaces.
 
 %package devel
-Summary:          TPM/MTM software emulator development files.
+Summary:          TPM/MTM software emulator development files
 Group:  System/Libraries
 Requires: %{name} = %{version}-%{release}
 
