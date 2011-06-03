@@ -1,4 +1,4 @@
-Summary:          TPM/MTM software emulator.
+Summary:          TPM/MTM software emulator
 Name:             tpm-emulator
 Version:          0.7.2
 Release:          0
