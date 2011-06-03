@@ -33,6 +33,8 @@ Requires: %{name} = %{version}-%{release}
 %setup -q -n tpm_emulator-%{version}
 
 %build
+export CFLAGS="%{optflags} -fno-strict-aliasing"
+export CXXFLAGS="%{optflags} -fno-strict-aliasing"
 %cmake -DMTM_EMULATOR=ON
 make %{_smp_mflags}
 
