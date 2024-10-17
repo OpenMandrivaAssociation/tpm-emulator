@@ -4,7 +4,7 @@ Version:          0.7.2
 Release:          0
 License:          GPL
 Group:            System/Kernel and hardware
-URL:              http://tpm-emulator.berlios.de/
+URL:              https://tpm-emulator.berlios.de/
 Source0:          http://download.berlios.de/tpm-emulator/tpm_emulator-%{version}.tar.gz
 BuildRoot:        %{_tmppath}/%{name}-root
 BuildRequires:  cmake
